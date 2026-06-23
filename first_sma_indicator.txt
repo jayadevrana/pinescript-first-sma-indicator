@@ -1,0 +1,5 @@
+//@version=6
+indicator("My First Indicator", overlay=true)
+
+ma = ta.sma(close, 20)
+plot(ma, color=color.blue, linewidth=2)
